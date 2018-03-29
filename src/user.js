@@ -1,8 +1,6 @@
 import React from "react";
 
-import { Post } from "./post";
-
-// 1) import getUser and getPosts methods from api/restCalls.js
+// 1) import Post component, getUser and getPosts methods from api/restCalls.js
 
 export default class User extends React.Component {
   constructor(props) {
