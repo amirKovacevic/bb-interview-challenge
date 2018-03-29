@@ -13,14 +13,13 @@ export default class User extends React.Component {
     };
   }
 
-  componentDidMount() {
-    // 2) call getUser with id that was passed as a prop
-    // 3) use the response.data object to set "user" field on the state
-  }
+  // 2) implement lifecycle hook that is called upon rendering in the DOM
+  // 3) call getUser with id that was passed as a prop
+  // 4) use the response.data object to set "user" field on the state
 
   loadPosts() {
-    // 4) call getPosts with the user's id */
-    // 5) use the response.data object to set "posts" field on the state
+    // 5) call getPosts with the user's id */
+    // 6) use the response.data object to set "posts" field on the state
   }
 
   render() {
